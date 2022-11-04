@@ -38,12 +38,12 @@ const team = [
     document.getElementById('box').innerHTML +=
 
     `
-    <div class="col-4">    
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+    <div class="col-12 col-md-4 col-sm-6 ">    
+        <div class="card" style="width: 100%;">
+            <img src="./assets/img/${element.image}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-name">${element.name}</h5>
+                <p class="card-role">${element.role}</p>
             </div>
         </div>
     <div>
